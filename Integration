@@ -1,0 +1,18 @@
+//Mikayla Munroe
+package people;
+
+import java.util.Scanner;
+
+public class Person {
+	//main method
+	public static void main(String[] args) {
+
+	Scanner input = new Scanner(System.in);
+	
+	Person2 Person2Object = new Person2 ();
+	System.out.println("What is your occupation?");
+	String job = input.nextLine();
+	
+	//calling method yourOccupation with argument string job
+	Person2Object.yourOccupation(job);
+	}
